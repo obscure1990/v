@@ -1,155 +1,75 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: mahdibland-🇺🇸US-23.108.100.103-1426-worker-general, server: cdnjs.com, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.40587333.xyz/footers, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general", server: chat.openai.com, port: 443, type: vmess, uuid: 8c679b81-84fc-43ce-9553-ddca575a6949, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.87135530.xyz/path/080822272914, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general", server: www.speedtest.net, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d.freeh1.xyz/dongtaiwang.com, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-172.67.164.184-5539-worker-general, server: chat.openai.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /alvvin.click/linkvws, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-172.67.197.82-1442-worker-general, server: workers.dev, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /odelia.autos/linkvws, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🇺🇸US-156.225.67.38-1443-worker-general, server: workers.dev, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.86139317.xyz/path/1692256902430, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-104.31.16.196-1397-worker-general, server: cdnjs.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /us-1.acyun.tk/, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-172.67.168.221-1850-worker-general, server: codepen.io, port: 443, type: vmess, uuid: 9681f99e-d251-477a-d777-1d01ee550481, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vfly3.win/myblog, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-104.21.53.12-1437-worker-general, server: cdnjs.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ophelia.mom/linkvws, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: "peasoft-11|美国_Telegram@kxswa #1-worker-general", server: workers.dev, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.82615355.xyz/path/080822272914, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-23.227.38.82-0133-worker-general, server: auth0.openai.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d.freeh1.xyz/dongtaiwang.com, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: "peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general", server: cdnjs.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d.freeh1.xyz/dongtaiwang.com, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🇺🇸US-137.175.86.145-0226-worker-general, server: auth0.openai.com, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.71453877.xyz/path/1693992821776, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-23.227.39.84-0150-worker-general, server: cdnjs.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d.freeh1.xyz/dongtaiwang.com, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🇺🇸US-198.2.215.97-0189-worker-general, server: api.jquery.com, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.59977650.xyz/path/1694083284866, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-172.67.156.32-0192-worker-general, server: chat.openai.com, port: 443, type: vmess, uuid: fb3aef20-ef6d-44ea-8a5c-f38deab4424f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cloudflare.piaole.me/huawei, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general, server: chat.openai.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vuk2.0bad.com/chat, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🇺🇸US-107.167.16.202-1425-worker-general, server: laravel.com, port: 443, type: vmess, uuid: 8c679b81-84fc-43ce-9553-ddca575a6949, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.87135530.xyz/path/080822272914, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general, server: chat.openai.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vsg1.0bad.com/chat, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: peasoft-11|🇺🇸 美国_09091898-worker-general, server: chat.openai.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /odelia.autos/linkvws, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: "peasoft-0,11|🇺🇸 _US_美国-worker-general", server: auth0.openai.com, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.19458162.xyz/path/1694083284866, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general, server: auth0.openai.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ming2.kiwireich.com/ray, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-104.21.56.221-0212-worker-general, server: auth0.openai.com, port: 443, type: vmess, uuid: 8a7d1fe3-bc74-414f-a987-3da8a4a9ab07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cloudflare.piaole.me/huawei, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: "peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general", server: codepen.io, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ming2.kiwireich.com/ray, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: peasoft-11|12|12|Server-2-worker-general, server: codepen.io, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /alvvin.click/linkvws, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🏁RELAY-172.67.132.15-1677-worker-general, server: workers.dev, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ming2.kiwireich.com/ray, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general, server: workers.dev, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /us-1.acyun.tk/, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: "peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general", server: discord.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d.freeh1.xyz/dongtaiwang.com, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general, server: cdnjs.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ming2.kiwireich.com/ray, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: mahdibland-🇺🇸US-192.74.228.185-0258-worker-general, server: codepen.io, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.59274706.xyz/path/1693992821776, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: peasoft-11|🇺🇸 _US_美国 13-worker-general, server: laravel.com, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.59274706.xyz/path/1693992821776, ws-headers: {Host: vls2023.rftti.space}, udp: true}
-  - {name: ermaozi-🇨🇦_CA_加拿大-worker-general, server: auth0.openai.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d.freeh1.xyz/dongtaiwang.com, ws-headers: {Host: vls2023.rftti.space}, udp: true}
+  - {name: mfuu-🇺🇸 美国CloudFlare节点 4-worker-general, server: cdnjs.com, port: 443, type: vmess, uuid: 8a7d1fe3-bc74-414f-a987-3da8a4a9ab07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cloudflare.piaole.me/huawei, ws-headers: {Host: vls2023.rftti.space}, udp: true}
+  - {name: autoproxy-美国_Telegram@kxswa-worker-general, server: chat.openai.com, port: 443, type: vmess, uuid: 3d80e1ff-2e9f-498b-8e13-5230e67b2be9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cloudflare.piaole.me/huawei, ws-headers: {Host: vls2023.rftti.space}, udp: true}
+  - {name: autoproxy-美国 CloudFlare节点-worker-general, server: auth0.openai.com, port: 443, type: vmess, uuid: 8a7d1fe3-bc74-414f-a987-3da8a4a9ab07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cloudflare.piaole.me/huawei, ws-headers: {Host: vls2023.rftti.space}, udp: true}
+  - {name: 9|未知_0911029, server: v117.runba.gq, port: 80, type: vmess, uuid: 892ebb75-7055-3007-8d16-356e65c6a49a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v117DEcxDXxxOvD, ws-headers: {Host: v117.runba.gq}, udp: true}
+  - {name: "9,21,24|英国_0911025", server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "19,20,21,24|US-129.159.41.233-060", server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 9|美国_0911749, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, ws-headers: {Host: cold-dawn-9246.fly.dev}, udp: true}
+  - {name: "9,21,24|加拿大_0911029", server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "21,24|🇺🇸 US 711", server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 9|美国_0911071, server: 66.151.172.173, port: 53419, type: vmess, uuid: d9257479-9462-4e7d-94ba-a8440a128a5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "7,8,24|🇻🇳 Viet Nam 02 @nodpai", server: 103.239.67.2, port: 80, type: vmess, uuid: d9512172-5a49-4007-a45f-e3fb1d771d07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4gspeed.me, ws-headers: {Host: 103.239.67.2}, udp: true}
+  - {name: 19|JP-54.199.83.239-130, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mahdibland-🇺🇸US-23.108.100.103-1426-worker-general
-      - "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general"
-      - "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general"
-      - mahdibland-🏁RELAY-172.67.164.184-5539-worker-general
-      - mahdibland-🏁RELAY-172.67.197.82-1442-worker-general
-      - mahdibland-🇺🇸US-156.225.67.38-1443-worker-general
-      - mahdibland-🏁RELAY-104.31.16.196-1397-worker-general
-      - mahdibland-🏁RELAY-172.67.168.221-1850-worker-general
-      - mahdibland-🏁RELAY-104.21.53.12-1437-worker-general
-      - "peasoft-11|美国_Telegram@kxswa #1-worker-general"
-      - mahdibland-🏁RELAY-23.227.38.82-0133-worker-general
-      - peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general
-      - mahdibland-🇺🇸US-137.175.86.145-0226-worker-general
-      - mahdibland-🏁RELAY-23.227.39.84-0150-worker-general
-      - mahdibland-🇺🇸US-198.2.215.97-0189-worker-general
-      - mahdibland-🏁RELAY-172.67.156.32-0192-worker-general
-      - mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general
-      - mahdibland-🇺🇸US-107.167.16.202-1425-worker-general
-      - mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general
-      - peasoft-11|🇺🇸 美国_09091898-worker-general
-      - peasoft-0,11|🇺🇸 _US_美国-worker-general
-      - mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🏁RELAY-104.21.56.221-0212-worker-general
-      - peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general
-      - peasoft-11|12|12|Server-2-worker-general
-      - mahdibland-🏁RELAY-172.67.132.15-1677-worker-general
-      - peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general
-      - peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general
-      - ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🇺🇸US-192.74.228.185-0258-worker-general
-      - peasoft-11|🇺🇸 _US_美国 13-worker-general
-      - ermaozi-🇨🇦_CA_加拿大-worker-general
+      - mfuu-🇺🇸 美国CloudFlare节点 4-worker-general
+      - autoproxy-美国_Telegram@kxswa-worker-general
+      - autoproxy-美国 CloudFlare节点-worker-general
+      - 9|未知_0911029
+      - 9,21,24|英国_0911025
+      - 19,20,21,24|US-129.159.41.233-060
+      - 9|美国_0911749
+      - 9,21,24|加拿大_0911029
+      - 21,24|🇺🇸 US 711
+      - 9|美国_0911071
+      - 7,8,24|🇻🇳 Viet Nam 02 @nodpai
+      - 19|JP-54.199.83.239-130
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - mahdibland-🇺🇸US-23.108.100.103-1426-worker-general
-      - "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general"
-      - "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general"
-      - mahdibland-🏁RELAY-172.67.164.184-5539-worker-general
-      - mahdibland-🏁RELAY-172.67.197.82-1442-worker-general
-      - mahdibland-🇺🇸US-156.225.67.38-1443-worker-general
-      - mahdibland-🏁RELAY-104.31.16.196-1397-worker-general
-      - mahdibland-🏁RELAY-172.67.168.221-1850-worker-general
-      - mahdibland-🏁RELAY-104.21.53.12-1437-worker-general
-      - "peasoft-11|美国_Telegram@kxswa #1-worker-general"
-      - mahdibland-🏁RELAY-23.227.38.82-0133-worker-general
-      - peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general
-      - mahdibland-🇺🇸US-137.175.86.145-0226-worker-general
-      - mahdibland-🏁RELAY-23.227.39.84-0150-worker-general
-      - mahdibland-🇺🇸US-198.2.215.97-0189-worker-general
-      - mahdibland-🏁RELAY-172.67.156.32-0192-worker-general
-      - mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general
-      - mahdibland-🇺🇸US-107.167.16.202-1425-worker-general
-      - mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general
-      - peasoft-11|🇺🇸 美国_09091898-worker-general
-      - peasoft-0,11|🇺🇸 _US_美国-worker-general
-      - mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🏁RELAY-104.21.56.221-0212-worker-general
-      - peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general
-      - peasoft-11|12|12|Server-2-worker-general
-      - mahdibland-🏁RELAY-172.67.132.15-1677-worker-general
-      - peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general
-      - peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general
-      - ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🇺🇸US-192.74.228.185-0258-worker-general
-      - peasoft-11|🇺🇸 _US_美国 13-worker-general
-      - ermaozi-🇨🇦_CA_加拿大-worker-general
+      - mfuu-🇺🇸 美国CloudFlare节点 4-worker-general
+      - autoproxy-美国_Telegram@kxswa-worker-general
+      - autoproxy-美国 CloudFlare节点-worker-general
+      - 9|未知_0911029
+      - 9,21,24|英国_0911025
+      - 19,20,21,24|US-129.159.41.233-060
+      - 9|美国_0911749
+      - 9,21,24|加拿大_0911029
+      - 21,24|🇺🇸 US 711
+      - 9|美国_0911071
+      - 7,8,24|🇻🇳 Viet Nam 02 @nodpai
+      - 19|JP-54.199.83.239-130
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mahdibland-🇺🇸US-23.108.100.103-1426-worker-general
-      - "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general"
-      - "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general"
-      - mahdibland-🏁RELAY-172.67.164.184-5539-worker-general
-      - mahdibland-🏁RELAY-172.67.197.82-1442-worker-general
-      - mahdibland-🇺🇸US-156.225.67.38-1443-worker-general
-      - mahdibland-🏁RELAY-104.31.16.196-1397-worker-general
-      - mahdibland-🏁RELAY-172.67.168.221-1850-worker-general
-      - mahdibland-🏁RELAY-104.21.53.12-1437-worker-general
-      - "peasoft-11|美国_Telegram@kxswa #1-worker-general"
-      - mahdibland-🏁RELAY-23.227.38.82-0133-worker-general
-      - peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general
-      - mahdibland-🇺🇸US-137.175.86.145-0226-worker-general
-      - mahdibland-🏁RELAY-23.227.39.84-0150-worker-general
-      - mahdibland-🇺🇸US-198.2.215.97-0189-worker-general
-      - mahdibland-🏁RELAY-172.67.156.32-0192-worker-general
-      - mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general
-      - mahdibland-🇺🇸US-107.167.16.202-1425-worker-general
-      - mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general
-      - peasoft-11|🇺🇸 美国_09091898-worker-general
-      - peasoft-0,11|🇺🇸 _US_美国-worker-general
-      - mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🏁RELAY-104.21.56.221-0212-worker-general
-      - peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general
-      - peasoft-11|12|12|Server-2-worker-general
-      - mahdibland-🏁RELAY-172.67.132.15-1677-worker-general
-      - peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general
-      - peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general
-      - ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🇺🇸US-192.74.228.185-0258-worker-general
-      - peasoft-11|🇺🇸 _US_美国 13-worker-general
-      - ermaozi-🇨🇦_CA_加拿大-worker-general
+      - mfuu-🇺🇸 美国CloudFlare节点 4-worker-general
+      - autoproxy-美国_Telegram@kxswa-worker-general
+      - autoproxy-美国 CloudFlare节点-worker-general
+      - 9|未知_0911029
+      - 9,21,24|英国_0911025
+      - 19,20,21,24|US-129.159.41.233-060
+      - 9|美国_0911749
+      - 9,21,24|加拿大_0911029
+      - 21,24|🇺🇸 US 711
+      - 9|美国_0911071
+      - 7,8,24|🇻🇳 Viet Nam 02 @nodpai
+      - 19|JP-54.199.83.239-130
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,38 +88,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mahdibland-🇺🇸US-23.108.100.103-1426-worker-general
-      - "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general"
-      - "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general"
-      - mahdibland-🏁RELAY-172.67.164.184-5539-worker-general
-      - mahdibland-🏁RELAY-172.67.197.82-1442-worker-general
-      - mahdibland-🇺🇸US-156.225.67.38-1443-worker-general
-      - mahdibland-🏁RELAY-104.31.16.196-1397-worker-general
-      - mahdibland-🏁RELAY-172.67.168.221-1850-worker-general
-      - mahdibland-🏁RELAY-104.21.53.12-1437-worker-general
-      - "peasoft-11|美国_Telegram@kxswa #1-worker-general"
-      - mahdibland-🏁RELAY-23.227.38.82-0133-worker-general
-      - peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general
-      - mahdibland-🇺🇸US-137.175.86.145-0226-worker-general
-      - mahdibland-🏁RELAY-23.227.39.84-0150-worker-general
-      - mahdibland-🇺🇸US-198.2.215.97-0189-worker-general
-      - mahdibland-🏁RELAY-172.67.156.32-0192-worker-general
-      - mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general
-      - mahdibland-🇺🇸US-107.167.16.202-1425-worker-general
-      - mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general
-      - peasoft-11|🇺🇸 美国_09091898-worker-general
-      - peasoft-0,11|🇺🇸 _US_美国-worker-general
-      - mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🏁RELAY-104.21.56.221-0212-worker-general
-      - peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general
-      - peasoft-11|12|12|Server-2-worker-general
-      - mahdibland-🏁RELAY-172.67.132.15-1677-worker-general
-      - peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general
-      - peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general
-      - ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🇺🇸US-192.74.228.185-0258-worker-general
-      - peasoft-11|🇺🇸 _US_美国 13-worker-general
-      - ermaozi-🇨🇦_CA_加拿大-worker-general
+      - mfuu-🇺🇸 美国CloudFlare节点 4-worker-general
+      - autoproxy-美国_Telegram@kxswa-worker-general
+      - autoproxy-美国 CloudFlare节点-worker-general
+      - 9|未知_0911029
+      - 9,21,24|英国_0911025
+      - 19,20,21,24|US-129.159.41.233-060
+      - 9|美国_0911749
+      - 9,21,24|加拿大_0911029
+      - 21,24|🇺🇸 US 711
+      - 9|美国_0911071
+      - 7,8,24|🇻🇳 Viet Nam 02 @nodpai
+      - 19|JP-54.199.83.239-130
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -210,113 +110,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - mahdibland-🇺🇸US-23.108.100.103-1426-worker-general
-      - "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general"
-      - "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general"
-      - mahdibland-🏁RELAY-172.67.164.184-5539-worker-general
-      - mahdibland-🏁RELAY-172.67.197.82-1442-worker-general
-      - mahdibland-🇺🇸US-156.225.67.38-1443-worker-general
-      - mahdibland-🏁RELAY-104.31.16.196-1397-worker-general
-      - mahdibland-🏁RELAY-172.67.168.221-1850-worker-general
-      - mahdibland-🏁RELAY-104.21.53.12-1437-worker-general
-      - "peasoft-11|美国_Telegram@kxswa #1-worker-general"
-      - mahdibland-🏁RELAY-23.227.38.82-0133-worker-general
-      - peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general
-      - mahdibland-🇺🇸US-137.175.86.145-0226-worker-general
-      - mahdibland-🏁RELAY-23.227.39.84-0150-worker-general
-      - mahdibland-🇺🇸US-198.2.215.97-0189-worker-general
-      - mahdibland-🏁RELAY-172.67.156.32-0192-worker-general
-      - mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general
-      - mahdibland-🇺🇸US-107.167.16.202-1425-worker-general
-      - mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general
-      - peasoft-11|🇺🇸 美国_09091898-worker-general
-      - peasoft-0,11|🇺🇸 _US_美国-worker-general
-      - mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🏁RELAY-104.21.56.221-0212-worker-general
-      - peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general
-      - peasoft-11|12|12|Server-2-worker-general
-      - mahdibland-🏁RELAY-172.67.132.15-1677-worker-general
-      - peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general
-      - peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general
-      - ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🇺🇸US-192.74.228.185-0258-worker-general
-      - peasoft-11|🇺🇸 _US_美国 13-worker-general
-      - ermaozi-🇨🇦_CA_加拿大-worker-general
+      - mfuu-🇺🇸 美国CloudFlare节点 4-worker-general
+      - autoproxy-美国_Telegram@kxswa-worker-general
+      - autoproxy-美国 CloudFlare节点-worker-general
+      - 9|未知_0911029
+      - 9,21,24|英国_0911025
+      - 19,20,21,24|US-129.159.41.233-060
+      - 9|美国_0911749
+      - 9,21,24|加拿大_0911029
+      - 21,24|🇺🇸 US 711
+      - 9|美国_0911071
+      - 7,8,24|🇻🇳 Viet Nam 02 @nodpai
+      - 19|JP-54.199.83.239-130
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - mahdibland-🇺🇸US-23.108.100.103-1426-worker-general
-      - "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general"
-      - "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general"
-      - mahdibland-🏁RELAY-172.67.164.184-5539-worker-general
-      - mahdibland-🏁RELAY-172.67.197.82-1442-worker-general
-      - mahdibland-🇺🇸US-156.225.67.38-1443-worker-general
-      - mahdibland-🏁RELAY-104.31.16.196-1397-worker-general
-      - mahdibland-🏁RELAY-172.67.168.221-1850-worker-general
-      - mahdibland-🏁RELAY-104.21.53.12-1437-worker-general
-      - "peasoft-11|美国_Telegram@kxswa #1-worker-general"
-      - mahdibland-🏁RELAY-23.227.38.82-0133-worker-general
-      - peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general
-      - mahdibland-🇺🇸US-137.175.86.145-0226-worker-general
-      - mahdibland-🏁RELAY-23.227.39.84-0150-worker-general
-      - mahdibland-🇺🇸US-198.2.215.97-0189-worker-general
-      - mahdibland-🏁RELAY-172.67.156.32-0192-worker-general
-      - mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general
-      - mahdibland-🇺🇸US-107.167.16.202-1425-worker-general
-      - mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general
-      - peasoft-11|🇺🇸 美国_09091898-worker-general
-      - peasoft-0,11|🇺🇸 _US_美国-worker-general
-      - mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🏁RELAY-104.21.56.221-0212-worker-general
-      - peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general
-      - peasoft-11|12|12|Server-2-worker-general
-      - mahdibland-🏁RELAY-172.67.132.15-1677-worker-general
-      - peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general
-      - peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general
-      - ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🇺🇸US-192.74.228.185-0258-worker-general
-      - peasoft-11|🇺🇸 _US_美国 13-worker-general
-      - ermaozi-🇨🇦_CA_加拿大-worker-general
+      - mfuu-🇺🇸 美国CloudFlare节点 4-worker-general
+      - autoproxy-美国_Telegram@kxswa-worker-general
+      - autoproxy-美国 CloudFlare节点-worker-general
+      - 9|未知_0911029
+      - 9,21,24|英国_0911025
+      - 19,20,21,24|US-129.159.41.233-060
+      - 9|美国_0911749
+      - 9,21,24|加拿大_0911029
+      - 21,24|🇺🇸 US 711
+      - 9|美国_0911071
+      - 7,8,24|🇻🇳 Viet Nam 02 @nodpai
+      - 19|JP-54.199.83.239-130
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mahdibland-🇺🇸US-23.108.100.103-1426-worker-general
-      - "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general"
-      - "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general"
-      - mahdibland-🏁RELAY-172.67.164.184-5539-worker-general
-      - mahdibland-🏁RELAY-172.67.197.82-1442-worker-general
-      - mahdibland-🇺🇸US-156.225.67.38-1443-worker-general
-      - mahdibland-🏁RELAY-104.31.16.196-1397-worker-general
-      - mahdibland-🏁RELAY-172.67.168.221-1850-worker-general
-      - mahdibland-🏁RELAY-104.21.53.12-1437-worker-general
-      - "peasoft-11|美国_Telegram@kxswa #1-worker-general"
-      - mahdibland-🏁RELAY-23.227.38.82-0133-worker-general
-      - peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general
-      - mahdibland-🇺🇸US-137.175.86.145-0226-worker-general
-      - mahdibland-🏁RELAY-23.227.39.84-0150-worker-general
-      - mahdibland-🇺🇸US-198.2.215.97-0189-worker-general
-      - mahdibland-🏁RELAY-172.67.156.32-0192-worker-general
-      - mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general
-      - mahdibland-🇺🇸US-107.167.16.202-1425-worker-general
-      - mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general
-      - peasoft-11|🇺🇸 美国_09091898-worker-general
-      - peasoft-0,11|🇺🇸 _US_美国-worker-general
-      - mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🏁RELAY-104.21.56.221-0212-worker-general
-      - peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general
-      - peasoft-11|12|12|Server-2-worker-general
-      - mahdibland-🏁RELAY-172.67.132.15-1677-worker-general
-      - peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general
-      - peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general
-      - ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🇺🇸US-192.74.228.185-0258-worker-general
-      - peasoft-11|🇺🇸 _US_美国 13-worker-general
-      - ermaozi-🇨🇦_CA_加拿大-worker-general
+      - mfuu-🇺🇸 美国CloudFlare节点 4-worker-general
+      - autoproxy-美国_Telegram@kxswa-worker-general
+      - autoproxy-美国 CloudFlare节点-worker-general
+      - 9|未知_0911029
+      - 9,21,24|英国_0911025
+      - 19,20,21,24|US-129.159.41.233-060
+      - 9|美国_0911749
+      - 9,21,24|加拿大_0911029
+      - 21,24|🇺🇸 US 711
+      - 9|美国_0911071
+      - 7,8,24|🇻🇳 Viet Nam 02 @nodpai
+      - 19|JP-54.199.83.239-130
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mahdibland-🇺🇸US-23.108.100.103-1426-worker-general
-      - "peasoft-11|🇺🇸美国【YouTube-由零開始】 #1-worker-general"
-      - "peasoft-11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1-worker-general"
-      - mahdibland-🏁RELAY-172.67.164.184-5539-worker-general
-      - mahdibland-🏁RELAY-172.67.197.82-1442-worker-general
-      - mahdibland-🇺🇸US-156.225.67.38-1443-worker-general
-      - mahdibland-🏁RELAY-104.31.16.196-1397-worker-general
-      - mahdibland-🏁RELAY-172.67.168.221-1850-worker-general
-      - mahdibland-🏁RELAY-104.21.53.12-1437-worker-general
-      - "peasoft-11|美国_Telegram@kxswa #1-worker-general"
-      - mahdibland-🏁RELAY-23.227.38.82-0133-worker-general
-      - peasoft-0,11,16|🇺🇸 _US_美国->🇨🇦_CA_加拿大-worker-general
-      - mahdibland-🇺🇸US-137.175.86.145-0226-worker-general
-      - mahdibland-🏁RELAY-23.227.39.84-0150-worker-general
-      - mahdibland-🇺🇸US-198.2.215.97-0189-worker-general
-      - mahdibland-🏁RELAY-172.67.156.32-0192-worker-general
-      - mahdibland-🇬🇧GB-109.74.202.203-16877-worker-general
-      - mahdibland-🇺🇸US-107.167.16.202-1425-worker-general
-      - mahdibland-🇸🇬SG-172.105.126.45-16885-worker-general
-      - peasoft-11|🇺🇸 美国_09091898-worker-general
-      - peasoft-0,11|🇺🇸 _US_美国-worker-general
-      - mfuu-🇯🇵 _US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🏁RELAY-104.21.56.221-0212-worker-general
-      - peasoft-1,2,3,4,5|_US_美国->🇯🇵_JP_日本-worker-general
-      - peasoft-11|12|12|Server-2-worker-general
-      - mahdibland-🏁RELAY-172.67.132.15-1677-worker-general
-      - peasoft-11|🇺🇸 _US_美国->🇱🇺_LU_卢森堡-worker-general
-      - peasoft-10,11|github.com/freefq - 美国CloudFla...-worker-general
-      - ermaozi-🇺🇸_US_美国->🇯🇵_JP_日本-worker-general
-      - mahdibland-🇺🇸US-192.74.228.185-0258-worker-general
-      - peasoft-11|🇺🇸 _US_美国 13-worker-general
-      - ermaozi-🇨🇦_CA_加拿大-worker-general
+      - mfuu-🇺🇸 美国CloudFlare节点 4-worker-general
+      - autoproxy-美国_Telegram@kxswa-worker-general
+      - autoproxy-美国 CloudFlare节点-worker-general
+      - 9|未知_0911029
+      - 9,21,24|英国_0911025
+      - 19,20,21,24|US-129.159.41.233-060
+      - 9|美国_0911749
+      - 9,21,24|加拿大_0911029
+      - 21,24|🇺🇸 US 711
+      - 9|美国_0911071
+      - 7,8,24|🇻🇳 Viet Nam 02 @nodpai
+      - 19|JP-54.199.83.239-130
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
